@@ -45,7 +45,6 @@ python3 TFLite_detection_video.py --threshold=0.7 --blur=80.0 --cw=180 --resolut
                     
 ### Changes if desired
 
-- # print the barcode type and data to the terminal and location to save the found barcode.
-    print("[INFO] Found barcode" + text)
-    cv2.imwrite('snap/test/Bar-Img_{}.png'.format(cv2.getTickCount()), img_bar)
+#### print the barcode type and data to the terminal and location to save the found barcode.
+- cv2.imwrite('snap/test/Bar-Img_{}.png'.format(cv2.getTickCount()), img_bar) (line # 279)
 
